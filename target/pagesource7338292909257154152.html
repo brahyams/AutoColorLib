@@ -1,0 +1,65 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;meta charset="UTF-8"&gt;<br/>
+  &lt;title&gt;Login Page&lt;/title&gt;<br/>
+  &lt;meta name="msapplication-TileColor" content="#5bc0de"&gt;<br/>
+  &lt;meta name="msapplication-TileImage" content="assets/img/metis-tile.png"&gt;<br/>
+  &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css"&gt;<br/>
+  &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css"&gt;<br/>
+  &lt;link rel="stylesheet" href="assets/css/main.min.css"&gt;<br/>
+  &lt;meta name="robots" content="noindex, nofollow"&gt;<br/>
+  &lt;script defer referrerpolicy="origin" src="/cdn-cgi/zaraz/s.js?z=JTdCJTIyZXhlY3V0ZWQlMjIlM0ElNUIlNUQlMkMlMjJ0JTIyJTNBJTIyTG9naW4lMjBQYWdlJTIyJTJDJTIyeCUyMiUzQTAuMzQzMDQ1NDA1NTIxNzA3OCUyQyUyMnclMjIlM0ExMzY2JTJDJTIyaCUyMiUzQTc2OCUyQyUyMmolMjIlM0E2MzAlMkMlMjJlJTIyJTNBMTM1MCUyQyUyMmwlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmNvbG9ybGliLmNvbSUyRnBvbHlnb24lMkZtZXRpcyUyRmxvZ2luLmh0bWwlMjIlMkMlMjJyJTIyJTNBJTIyJTIyJTJDJTIyayUyMiUzQTI0JTJDJTIybiUyMiUzQSUyMlVURi04JTIyJTJDJTIybyUyMiUzQTMwMCUyQyUyMnElMjIlM0ElNUIlNUQlN0Q="&gt;&lt;/script&gt;<br/>
+  &lt;script nonce="4913ad73-e27b-48e3-bc72-ea554b8649ba"&gt;try{(function(w,d){!function(o,p,q,r){o[q]=o[q]||{};o[q].executed=[];o.zaraz={deferred:[],listeners:[]};o.zaraz.q=[];o.zaraz._f=function(s){return async function(){var t=Array.prototype.slice.call(arguments);o.zaraz.q.push({m:s,a:t})}};for(const u of["track","set","debug"])o.zaraz[u]=o.zaraz._f(u);o.zaraz.init=()=&gt;{var v=p.getElementsByTagName(r)[0],w=p.createElement(r),x=p.getElementsByTagName("title")[0];x&&(o[q].t=p.getElementsByTagName("title")[0].text);o[q].x=Math.random();o[q].w=o.screen.width;o[q].h=o.screen.height;o[q].j=o.innerHeight;o[q].e=o.innerWidth;o[q].l=o.location.href;o[q].r=p.referrer;o[q].k=o.screen.colorDepth;o[q].n=p.characterSet;o[q].o=(new Date).getTimezoneOffset();if(o.dataLayer)for(const B of Object.entries(Object.entries(dataLayer).reduce(((C,D)=&gt;({...C[1],...D[1]})),{})))zaraz.set(B[0],B[1],{scope:"page"});o[q].q=[];for(;o.zaraz.q.length;){const E=o.zaraz.q.shift();o[q].q.push(E)}w.defer=!0;for(const F of[localStorage,sessionStorage])Object.keys(F||{}).filter((H=&gt;H.startsWith("_zaraz_"))).forEach((G=&gt;{try{o[q]["z_"+G.slice(7)]=JSON.parse(F.getItem(G))}catch{o[q]["z_"+G.slice(7)]=F.getItem(G)}}));w.referrerPolicy="origin";w.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(o[q])));v.parentNode.insertBefore(w,v)};["complete","interactive"].includes(p.readyState)?zaraz.init():o.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document)}catch(e){throw fetch("/cdn-cgi/zaraz/t"),e;};&lt;/script&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body class="login"&gt;<br/>
+  &lt;div class="form-signin"&gt;<br/>
+   &lt;div class="text-center"&gt;&lt;img src="assets/img/logo.png" alt="Metis Logo"&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;hr&gt;<br/>
+   &lt;div class="tab-content"&gt;<br/>
+    &lt;div id="login" class="tab-pane active"&gt;<br/>
+     &lt;form action="index.html"&gt;<br/>
+      &lt;p class="text-muted text-center"&gt;Enter your username and password&lt;/p&gt;&lt;input type="text" placeholder="Username" class="form-control top"&gt; &lt;input type="password" placeholder="Password" class="form-control bottom"&gt;<br/>
+      &lt;div class="checkbox"&gt;&lt;label&gt; &lt;input type="checkbox"&gt; Remember Me &lt;/label&gt;<br/>
+      &lt;/div&gt;&lt;button class="btn btn-lg btn-primary btn-block" type="submit"&gt;Sign in&lt;/button&gt;<br/>
+     &lt;/form&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div id="forgot" class="tab-pane"&gt;<br/>
+     &lt;form action="index.html"&gt;<br/>
+      &lt;p class="text-muted text-center"&gt;Enter your valid e-mail&lt;/p&gt;&lt;input type="email" placeholder="mail@domain.com" class="form-control"&gt; &lt;br&gt;&lt;button class="btn btn-lg btn-danger btn-block" type="submit"&gt;Recover Password&lt;/button&gt;<br/>
+     &lt;/form&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div id="signup" class="tab-pane"&gt;<br/>
+     &lt;form action="index.html"&gt;&lt;input type="text" placeholder="username" class="form-control top"&gt; &lt;input type="email" placeholder="mail@domain.com" class="form-control middle"&gt; &lt;input type="password" placeholder="password" class="form-control middle"&gt; &lt;input type="password" placeholder="re-password" class="form-control bottom"&gt; &lt;button class="btn btn-lg btn-success btn-block" type="submit"&gt;Register&lt;/button&gt;<br/>
+     &lt;/form&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;hr&gt;<br/>
+   &lt;div class="text-center"&gt;<br/>
+    &lt;ul class="list-inline"&gt;<br/>
+     &lt;li&gt;&lt;a class="text-muted" href="#login" data-toggle="tab"&gt;Login&lt;/a&gt;&lt;/li&gt;<br/>
+     &lt;li&gt;&lt;a class="text-muted" href="#forgot" data-toggle="tab"&gt;Forgot Password&lt;/a&gt;&lt;/li&gt;<br/>
+     &lt;li&gt;&lt;a class="text-muted" href="#signup" data-toggle="tab"&gt;Signup&lt;/a&gt;&lt;/li&gt;<br/>
+    &lt;/ul&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"&gt;&lt;/script&gt;<br/>
+  &lt;script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;<br/>
+  &lt;script type="text/javascript"&gt;<br/>
+      (function($) {<br/>
+        $(document).ready(function() {<br/>
+          $('.list-inline li &gt; a').click(function() {<br/>
+            var activeForm = $(this).attr('href') + ' &gt; form';<br/>
+            //console.log(activeForm);<br/>
+            $(activeForm).addClass('animated fadeIn');<br/>
+            //set timer to 1 seconds, after that, unload the animate animation<br/>
+            setTimeout(function() {<br/>
+              $(activeForm).removeClass('animated fadeIn');<br/>
+            }, 1000);<br/>
+          });<br/>
+        });<br/>
+      })(jQuery);<br/>
+    &lt;/script&gt;<br/>
+  &lt;script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon="{&quot;rayId&quot;:&quot;854564d61ca5f7a4&quot;,&quot;version&quot;:&quot;2024.2.0&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;}" crossorigin="anonymous"&gt;&lt;/script&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

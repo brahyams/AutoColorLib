@@ -1,0 +1,49 @@
+
+o
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë†ÅŒ
+u
+java:S2293¨"YReplace the type specification in this constructor call with the diamond operator ("<>").(²öÔËýÿÿÿÿ
+n	java:S135+"YReduce the total number of break and continue statements in this loop to use at most one.(Ù÷Âé
+r	java:S127r"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ö¸å”ýÿÿÿÿ
+l	java:S127w"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÉÎ´?
+r	java:S127z"XRefactor the code in order to not assign to this loop counter from within the loop body.(µ×ÏÑüÿÿÿÿ
+s	java:S127€"XRefactor the code in order to not assign to this loop counter from within the loop body.(µ×ÏÑüÿÿÿÿ
+J
+java:S1066q"/Merge this if statement with the enclosing one.(ôóó×þÿÿÿÿ
+7
+java:S1643\"Use a StringBuilder instead.(Š’”×þÿÿÿÿ
+7
+java:S1643^"Use a StringBuilder instead.(Š’”×þÿÿÿÿ
+7
+java:S1643d"Use a StringBuilder instead.(Š’”×þÿÿÿÿ
+7
+java:S1643i"Use a StringBuilder instead.(Š’”×þÿÿÿÿ
+h
+java:S2259"MA "NullPointerException" could be thrown; "dataVectorRango" is nullable here.(¤â²öüÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(®¯êôýÿÿÿÿ
+n
+java:S3776 "SRefactor this method to reduce its Cognitive Complexity from 102 to the 15 allowed.(—ûùœÿÿÿÿÿ
+I
+java:S14810"3Remove this unused "excelDataRange" local variable.(¼ÒÊ…
+Q	java:S1255"<This block of commented-out lines of code should be removed.(³¦„Š
+Q	java:S1256"<This block of commented-out lines of code should be removed.(„…„
+V	java:S125="<This block of commented-out lines of code should be removed.(‹Êºîÿÿÿÿÿ
+q
+java:S3923["[Remove this conditional structure or edit its code blocks so that they're not all the same.(ÆÛò
+=
+java:S1125["'Remove the unnecessary boolean literal.(ÆÛò
+=
+java:S1125b"'Remove the unnecessary boolean literal.(Óñì 
+B
+java:S1125h"'Remove the unnecessary boolean literal.(»ƒªøÿÿÿÿ
+B
+java:S1125p"'Remove the unnecessary boolean literal.(—Øñêøÿÿÿÿ
+B
+java:S1125q"'Remove the unnecessary boolean literal.(ôóó×þÿÿÿÿ
+B
+java:S1125t"'Remove the unnecessary boolean literal.(™ƒ¿‡ùÿÿÿÿ
+=
+java:S1125~"'Remove the unnecessary boolean literal.(Óñì 
+â
+java:S6541 "ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 110 to 64, Complexity from 26 to 14, Nesting Level from 8 to 2, Number of Variables from 20 to 6.(—ûùœÿÿÿÿÿ
