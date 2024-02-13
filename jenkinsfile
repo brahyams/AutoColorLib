@@ -7,7 +7,7 @@ def timestamp = dateFormat.format(date).toString()
 def CORREOS = ""
 def urlRepo=""
 def rama="master"
-def credenciales="NONE"
+def credenciales=""
 
 pipeline {
     agent any
@@ -20,13 +20,6 @@ pipeline {
                     echo "Workspace set to:" + env.WORKSPACE_LOCAL
                     echo "Build time:" + env.BUILD_TIME
                 }
-            }
-        }
-        stage('Obtener Fuentes'){
-            steps {
-                    checkout([$class: 'GitSCM', branches: [[name: rama]],
-                    wdoGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [
-                    [credentialsId: credenciales, url: urlRepo]]])
             }
         }
 
@@ -62,8 +55,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        //bat ("gradle clean test -DRunner=\"${Runner}\" aggregate") //Ejecución en agente Windows con parametro jenkins
-                        //sh ("gradle clean test -DRunner=\"${Runner}\" aggregate") //Ejecución en agente Linux con parametro jenkins
+              
                         bat("gradle clean test aggregate") //Ejecución en agente windows sin parametro jenkins
                         echo 'Test Ejecutados sin Fallo'
                         currentBuild.result = 'SUCCESS'
