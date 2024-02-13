@@ -37,6 +37,16 @@ buildscript {
     }
 }
 
+sonarqube{
+	properties{
+			property "sonar.projectkey", "colorlib"
+			property "sonar.projectname", "colorlib"
+			property "sonar.baseBranch", "master"
+			property "sonar.scanAllSources", "false"
+			
+			}
+}
+
 dependencies {
 
     //DEPENDENCIAS DE SERENITY - TECNOLOGIAS WEB
