@@ -7,7 +7,7 @@ def timestamp = dateFormat.format(date).toString()
 def CORREOS = ""
 def urlRepo=""
 def rama="master"
-def credenciales=""
+def credenciales="NONE"
 
 pipeline {
     agent any
